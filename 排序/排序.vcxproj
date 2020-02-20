@@ -76,6 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -116,11 +117,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="hoare.cpp" />
+    <ClCompile Include="sort.cpp" />
     <ClCompile Include="冒泡排序.cpp" />
+    <ClCompile Include="单链表的选择排序.cpp" />
     <ClCompile Include="双指针法.cpp" />
+    <ClCompile Include="实现排序.cpp" />
     <ClCompile Include="希尔排序.cpp" />
     <ClCompile Include="归并排序.cpp" />
+    <ClCompile Include="排序汇总.cpp" />
     <ClCompile Include="插入排序.cpp" />
+    <ClCompile Include="源.cpp" />
     <ClCompile Include="自顶向下调整算法.cpp" />
     <ClCompile Include="选择排序.cpp" />
   </ItemGroup>

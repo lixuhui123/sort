@@ -3,33 +3,42 @@
 //#include <algorithm>
 //void SelectionSort(int arr[], int length)
 //{
-//	int _min = 0;
-//	int tmp;
-//	int index;
-//	for (int i = 0; i < length; ++i)
+//	int i, j;
+//	int _min, tmp,min_index;
+//	for (i = 0; i < length-1; ++i)
 //	{
 //		_min = arr[i];
-//		for (int j = i + 1; j < length; ++j)
+//		//min_index = i;
+//		for (j = i + 1; j < length; ++j)
 //		{
 //			if (arr[j] < _min)
 //			{
 //				_min = arr[j];
-//				index = j;
+//				min_index = j;
 //			}
 //		}
-//		tmp = arr[i];
-//		arr[i] = arr[index];
-//		arr[index] = tmp;
+//		 
+//		tmp = arr[min_index];
+//		arr[min_index] = arr[i];
+//		arr[i] = tmp;
+//		 
+//		
 //	}
 //}
 //int main()
 //{
-//	int arr[6] = { 5,0,1,6,10,2 };
-//	SelectionSort(arr, 6);
-//	for (int i = 0; i < 6; ++i)
+//	int arr[11] = { 5,0,11,123,13,11,61,5,4,3,11};
+//	SelectionSort(arr, 11);
+//	for (int i = 0; i <11; ++i)
 //	{
 //		printf("%d ", arr[i]);
 //	}
-//    system("pause");
-//    return 0;
+//	system("pause");
+//	return 0;
 //}
+//
+// 
+//
+//
+//
+//

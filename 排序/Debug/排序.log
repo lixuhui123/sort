@@ -1,7 +1,2 @@
-﻿  hoare.cpp
-  冒泡排序.cpp
-  扫雷.cpp
-  自顶向下调整算法.cpp
-  选择排序.cpp
-  正在生成代码...
+﻿  实现排序.cpp
   排序.vcxproj -> E:\bite learn\排序\Debug\排序.exe
