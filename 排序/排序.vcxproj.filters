@@ -54,5 +54,11 @@
     <ClCompile Include="排序汇总.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="双指针法变形.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mergeSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

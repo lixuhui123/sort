@@ -1,3 +1,10 @@
+//void swap(int* a, int*b)
+//{
+//	int tmp;
+//	tmp = *a;
+//	*a = *b;
+//	*b = tmp;
+//}
 //int hoareway(int* src, int start, int end)
 //{
 //	int a = start + 1, b = end - 2;

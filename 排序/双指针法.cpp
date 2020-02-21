@@ -36,7 +36,7 @@
 //	int mid;
 //	if (start < end)
 //	{
-//		mid = doublepointway2(src, start, end);
+//		mid = doublepointway1(src, start, end);
 //		dealquicksort(src, start, mid - 1);
 //		dealquicksort(src, mid + 1, end);
 //	}
