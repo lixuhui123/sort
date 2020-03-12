@@ -60,5 +60,11 @@
     <ClCompile Include="mergeSort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="源1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vector的快速排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
