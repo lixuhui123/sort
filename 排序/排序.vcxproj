@@ -124,6 +124,7 @@
     <ClCompile Include="单链表的选择排序.cpp" />
     <ClCompile Include="双指针法.cpp" />
     <ClCompile Include="双指针法变形.cpp" />
+    <ClCompile Include="字符串排序.cpp" />
     <ClCompile Include="实现排序.cpp" />
     <ClCompile Include="希尔排序.cpp" />
     <ClCompile Include="归并排序.cpp" />

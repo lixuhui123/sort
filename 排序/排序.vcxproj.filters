@@ -66,5 +66,8 @@
     <ClCompile Include="vector的快速排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="字符串排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
