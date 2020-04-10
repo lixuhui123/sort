@@ -57,43 +57,33 @@
 //void dealsort(int arr[], int * tmp, int str, int end)
 //{
 //	if (str >= end)
-//	{
 //		return;
-//	}
 //	int mid = (str + end) / 2;
 //	dealsort(arr, tmp, str, mid);
 //	dealsort(arr, tmp, mid + 1, end);
-//
 //	int a = str;
 //	int b = mid + 1;
 //	int c = str;
-//
-//	while (a <= mid && b <= end)
+//	while (a <= mid && b<=end)
 //	{
-//		if (arr[a] > arr[b])
-//		{
-//			tmp[c] = arr[b];
-//			++b;
-//		}
-//		else
+//		if (arr[a] < arr[b])
 //		{
 //			tmp[c] = arr[a];
 //			++a;
 //		}
+//		else
+//		{
+//			tmp[c] = arr[b];
+//			++b;
+//		}
 //		++c;
 //	}
 //	for (; a <= mid; ++a, ++c)
-//	{
 //		tmp[c] = arr[a];
-//	}
 //	for (; b <= end; ++b, ++c)
-//	{
 //		tmp[c] = arr[b];
-//	}
-//	for (int i = 0; i <= end; ++i)//Ò×´íµã
-//	{
+//	for (int i = 0; i <= end; ++i)
 //		arr[i] = tmp[i];
-//	}
 //}
 //
 //void mergeSort(int arr[], int n)
